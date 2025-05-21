@@ -16,14 +16,14 @@ import {
 
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyBmSkCnePbHTi2BcngOIVekwP7CxJJ0SzQ",
-    authDomain: "notakto-g600.firebaseapp.com",
-    projectId: "notakto-g600",
-    storageBucket: "notakto-g600.firebasestorage.app",
-    messagingSenderId: "200189691429",
-    appId: "1:200189691429:web:14bcecc90423f59e0ce1cc",
-    measurementId: "G-P2EXC36LGK"
-  };
+  apiKey: "AIzaSyAQq4JbfY_5_QZpMb_XG7Eqn8lx0_QV3vU",
+  authDomain: "paradox-xx.firebaseapp.com",
+  projectId: "paradox-xx",
+  storageBucket: "paradox-xx.firebasestorage.app",
+  messagingSenderId: "42300951649",
+  appId: "1:42300951649:web:495b79e9c54d816c51ae20",
+  measurementId: "G-PJ1X92SB10"
+};
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
