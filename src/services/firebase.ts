@@ -15,14 +15,17 @@ import {
 } from 'firebase/firestore';
 
 // Initialize Firebase
-const firebaseConfig = {
-  apiKey: "AIzaSyAQq4JbfY_5_QZpMb_XG7Eqn8lx0_QV3vU",
-  authDomain: "paradox-xx.firebaseapp.com",
-  projectId: "paradox-xx",
-  storageBucket: "paradox-xx.firebasestorage.app",
-  messagingSenderId: "42300951649",
-  appId: "1:42300951649:web:495b79e9c54d816c51ae20",
-  measurementId: "G-PJ1X92SB10"
+
+ const firebaseConfig = {
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
+
+
 };
 
 const app = initializeApp(firebaseConfig);
